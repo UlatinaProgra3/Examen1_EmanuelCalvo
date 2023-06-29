@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package examen1ecp;
+package examen1ecp.CapaLógica;
 
+import examen1ecp.CapaDatos.PacienteDA;
 import examen1ecp.Recursos.Paciente;
 import java.sql.SQLException;
 import javax.swing.table.DefaultTableModel;

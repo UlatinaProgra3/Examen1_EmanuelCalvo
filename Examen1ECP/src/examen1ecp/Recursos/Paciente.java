@@ -14,6 +14,14 @@ public class Paciente extends Persona {
     public int NumeroPaciente;
     public String tipoSangre;
 
+    public Paciente(int cedula, String Nombre, String Apellido1, String A2, String Correo, String Descripcion, int edad) {
+        super(cedula, Nombre, Apellido1, A2, Correo, Descripcion, edad);
+    }
+
+    public Paciente() {
+        
+    }
+
     public Paciente(int NumeroPaciente, String tipoSangre, int cedula, String Nombre, String Apellido1, String A2, String Correo, String Descripcion, int edad) {
         super(cedula, Nombre, Apellido1, A2, Correo, Descripcion, edad);
         this.NumeroPaciente = NumeroPaciente;
